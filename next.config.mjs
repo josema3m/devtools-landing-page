@@ -20,6 +20,8 @@ const nextConfig = {
         },
       ],
     })
+    config.output.webassemblyModuleFilename = 'static/wasm/[modulehash].wasm'
+    config.optimization.moduleIds = 'deterministic'
     return config
   },
 }

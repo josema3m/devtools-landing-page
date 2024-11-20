@@ -94,8 +94,8 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Beautiful
+                <Br /> Dev Tools
               </FallInPlace>
             }
             description={
